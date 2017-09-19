@@ -1,0 +1,21 @@
+/*Average score of Grades*/
+
+ #include <stdio.h>
+ #include <math.h>
+int main(void){
+	int subject1, subject2, subject3, subject4, subject5;
+	double avg;
+	subject1 = 67;
+	subject2 = 90;
+	subject3 = 85;
+	subject4 = 77;
+	subject5 = 95;
+	avg = (subject1 + subject2 + subject3 + subject4 + subject5) / 5 ;
+	printf ("Student Id 201570123\n");
+	printf ("----------------------\n");
+	printf ("subject1 = %d\nsubject2 = %d\nsubject3 = %d\nsubject4 = %d\nsubject5 = %d\n", subject1, subject2, subject3,subject4, subject5);
+	printf ("----------------------\n");
+	printf ("Average is = %.2f\n",avg);
+	printf ("----------------------\n");
+	return 0;
+}
