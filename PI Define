@@ -1,0 +1,17 @@
+#include <stdio.h>
+#define PI 3.141592
+
+int main(void)
+{
+	int r;
+	double area;
+
+	printf("반지름(정수)를입력하세요:");
+	scanf_s("%d", &r);
+
+	area = PI*r*r;
+
+	printf("원의넓이는%.3f 입니다.\n", area);
+
+	return 0;
+}
