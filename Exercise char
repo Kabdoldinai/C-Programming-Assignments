@@ -1,0 +1,9 @@
+#include <stdio.h>
+
+int main(void)
+{
+	char a;
+	a = 'A';
+	printf("변수a형의 크기: %d\n", sizeof(char));
+		return 0;
+}
