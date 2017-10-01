@@ -1,0 +1,37 @@
+#include <stdio.h>
+
+int main(void)
+{
+
+        char name1 [10], name2 [10];
+        int hours1, hours2, salary1, salary2, totalpayment; 
+        
+        
+        printf ("Enter the name of employee: ");
+        scanf ("%s", &name1);
+
+        printf ("Enter working hours of employee: ");
+        scanf ("%d", &hours1);
+    
+        fflush(stdin);
+      
+        printf ("Enter the name of employee: ");
+        scanf ("%s", &name2);
+
+        printf ("Enter the workinghours of employee: ");
+        scanf ("%d", &hours2);
+        
+        salary1 = (9200 * hours1) * (1 - 0.12);
+        salary2 = (6300 * hours2) * (1 - 0.09);
+        printf("--------------------------------\n");
+
+        printf("monthlysallary of employee1%s: %d\n", name1, salary1);
+		printf("montlysallary of employee2%s: %d\n", name2, salary2); 
+
+		printf("--------------------------------\n");
+
+		printf ("The total payment of employees: %d",salary1 + salary2); 
+         
+
+        return 0; 
+        }
